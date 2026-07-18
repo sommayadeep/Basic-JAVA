@@ -7,8 +7,7 @@ public class exceptionhandliing {
                 throw new Exception("the input value is wrong");
             }
             System.out.println("the sum is: 50");
-        }
-        catch (Exception e){
+        }catch (Exception e){
             System.out.println(e.getMessage());
         }
     }
