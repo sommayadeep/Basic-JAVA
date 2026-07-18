@@ -4,6 +4,11 @@ public class breakandcontinue {
         System.out.print("enter: ");
         Scanner sc = new Scanner(System.in)  ;
         int numbers = sc.nextInt();
-        System.out.println(numbers);
+        if (numbers > 20){
+            for ( ; numbers <35; numbers ++){
+            System.out.println("numbers");
+            }
+            
+            }
     }
 }
