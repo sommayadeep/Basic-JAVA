@@ -5,10 +5,20 @@ public class breakandcontinue {
         Scanner sc = new Scanner(System.in)  ;
         int numbers = sc.nextInt();
         if (numbers > 20){
-            for ( ; numbers <35; numbers ++){
-            System.out.println("numbers");
-            }
+            for ( ; numbers <100; numbers ++){
+                if(numbers == 29){
+                    continue;
+                }
+                else if (numbers == 36){
+                    break;
+                }
+            System.out.println(numbers);
             
             }
+        }
+    else{
+            System.out.println("greater then 34");
+        }
+        sc.close();
     }
 }
