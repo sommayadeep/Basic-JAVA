@@ -11,6 +11,10 @@ class student{
         student s2 = new student (10241);
 
         System.out.println(s1.roll);
+        System.out.println(s2.roll);
+
+        System.out.println(s1.college);
+        System.out.println(s2.college);
 
     }
 }
