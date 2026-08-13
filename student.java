@@ -16,5 +16,7 @@ class student{
         System.out.println(s1.college);
         System.out.println(s2.college);
 
+        
+
     }
 }
