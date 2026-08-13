@@ -35,7 +35,7 @@ public class arrays{
         int[] a = new int[5];
         a[2] = 20;
         System.out.println("a[1]"+a[1] + "a[2]" +a[2]);
-        System.out.println("a[] length is "+a.length);
+        System.out.println("a[] length is " +a.length);
 
         int[] b = new int[10];
         System.out.println("b lengh" + b.length);
