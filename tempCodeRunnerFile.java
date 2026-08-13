@@ -1,1 +1,1 @@
-s2.inc();
+statics s2 = new statics();
