@@ -16,6 +16,6 @@ public class statics {
 
         System.out.println("a = " + s1.a);
         System.out.println("b = " + s1.b);
-        System.out.println("c = " + s1.c);
+        System.out.println("c = " + c);
     }
 }
