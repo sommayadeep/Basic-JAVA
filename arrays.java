@@ -38,10 +38,10 @@ public class arrays{
         System.out.println("a[] length is " +a.length);
 
         int[] b = new int[10];
-        System.out.println("b lengh" + b.length);
+        System.out.println("b length" + b.length);
 
         for (int i=0; i<b.length; i++){
-            System.out.println(b);
+            System.out.println(b[1]);
         }
     }
 }
