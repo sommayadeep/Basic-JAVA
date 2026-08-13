@@ -1,6 +1,6 @@
 public class flaot {
     public static void main(String[] args){
-        float f = 5;
+        double f = 5.9;
         System.out.println(f);
     }
 }
