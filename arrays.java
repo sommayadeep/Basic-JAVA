@@ -1,30 +1,47 @@
+// import java.util.Arrays;
+// public class arrays {
+//     public static void main(String[] args){
+//         int[] marks = new int[3];  //--------------------> [] one dimentional array
+//         marks[0] = 92;
+//         marks[1] = 98;
+//         marks[2] = 82;
+
+//         System.out.println(marks);   //garbage value
+//         System.out.println(marks[0]);  //individula marks
+//         System.out.println(marks[1]);  //individula marks
+//         System.out.println(marks[2]);  //individula marks
+
+
+//         System.out.println(marks.length);  //no need to length() as it calls directly in the array
+
+//         Arrays.sort(marks);  //pre defined function ---------------------------->"import java.util.Arrays"
+//         System.out.println(marks[0]);    //print 82 in 0 (after sorting) as in code 82 in the 2 position 
+
+
+
+//         int[] marks1 = {92,95,85}; //we can also write like that  
+
+
+
+
+//         int[][] marksfor2student = {{91,92,93} , {82,84,89}};
+//         System.out.println(marksfor2student[0][2]);
+//     }
+// }
+
 import java.util.Arrays;
-public class arrays {
+public class arrays{
     public static void main(String[] args){
-        int[] marks = new int[3];  //--------------------> [] one dimentional array
-        marks[0] = 92;
-        marks[1] = 98;
-        marks[2] = 82;
+        int[] a = new int[5];
+        a[2] = 20;
+        System.out.println("a[1]"+a[1] + "a[2]" +a[2]);
+        System.out.println("a[] length is "+a.length);
 
-        System.out.println(marks);   //garbage value
-        System.out.println(marks[0]);  //individula marks
-        System.out.println(marks[1]);  //individula marks
-        System.out.println(marks[2]);  //individula marks
+        int[] b = new int[10];
+        System.out.println("b lengh" + b.length);
 
-
-        System.out.println(marks.length);  //no need to length() as it calls directly in the array
-
-        Arrays.sort(marks);  //pre defined function ---------------------------->"import java.util.Arrays"
-        System.out.println(marks[0]);    //print 82 in 0 (after sorting) as in code 82 in the 2 position 
-
-
-
-        int[] marks1 = {92,95,85}; //we can also write like that  
-
-
-
-
-        int[][] marksfor2student = {{91,92,93} , {82,84,89}};
-        System.out.println(marksfor2student[0][2]);
+        for (int i=0; i<b.length; i++){
+            System.out.println(b);
+        }
     }
 }
