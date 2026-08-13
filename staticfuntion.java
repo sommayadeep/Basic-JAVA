@@ -5,7 +5,7 @@ public class staticfuntion {
         int c = 30;
 
         System.out.println("a = " + a);
-        System.out.println("b =" + b);
+        System.out.println("b = " + b);
         System.out.println("c = " + c);
         }
 
