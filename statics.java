@@ -9,10 +9,10 @@ public class statics {
     
     public static void main(String[] args){
         statics s1 = new statics();
-        statics s2 = new statics();
+        // statics s2 = new statics();
 
         s1.inc();
-        s2.inc();
+        // s2.inc();
 
         System.out.println("a = " + s1.a);
         System.out.println("b = " + s1.b);
