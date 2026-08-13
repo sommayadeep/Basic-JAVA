@@ -10,7 +10,7 @@ class student{
         student s1 = new student(10181);
         student s2 = new student (10241);
 
-        System.out.println(s1);
+        System.out.println(s1.roll);
 
     }
 }
