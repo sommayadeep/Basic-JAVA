@@ -15,7 +15,7 @@ public class statics {
         s2.inc();
 
         System.out.println("a = " + s1.a);
-        System.out.println("b = " + s2.b);
+        System.out.println("b = " + s1.b);
         System.out.println("c = " + c);
     }
 }
