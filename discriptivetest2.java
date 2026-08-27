@@ -26,7 +26,7 @@ class Marks extends Student {
     }
 }
 
-public class Main {
+public class discriptivetest2{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
