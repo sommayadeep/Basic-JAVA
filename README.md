@@ -211,3 +211,21 @@ H-->I[Full Stack Java Developer]
 *This repository is continuously updated as I progress through my Java learning journey.*
 
 </div>
+
+## Object-Oriented Programming Examples
+
+The repository also includes focused examples for learning Java OOP:
+
+| File | Concept |
+|---|---|
+| `basicoops.java` | Classes and objects |
+| `perameterised.java` | Parameterized constructors |
+| `copy.java` | Copy constructors |
+| `student.java` | Student class example |
+
+Run an OOP example directly:
+
+```bash
+javac basicoops.java
+java basicoops
+```
